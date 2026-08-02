@@ -19,8 +19,8 @@ juce_add_plugin(EaglesNightEQ
 
 target_sources(EaglesNightEQ
     PRIVATE
-        Source/PluginProcessor.cpp
-        Source/PluginEditor.cpp
+        PluginProcessor.cpp
+        PluginEditor.cpp
 )
 
 target_compile_definitions(EaglesNightEQ
